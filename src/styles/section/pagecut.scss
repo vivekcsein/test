@@ -1,0 +1,5 @@
+@use "../style.scss" as *;
+.title {
+  color: $primaryColor;
+  @include myclass;
+}
